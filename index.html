@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Warm Brew | Coffee & Cozy Space</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg nav-custom fixed-top py-3">
+  <div class="container">
+    <a class="navbar-brand fw-bold fs-3 serif" href="#">
+      <i class="fas fa-mug-hot me-2" style="color:#B87B4A;"></i>Warm Brew
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tentang">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimoni">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" href="#lokasi">Find Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero-estetic d-flex align-items-center position-relative">
+  <div class="hero-shape"></div>
+  <div class="container position-relative py-5">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6 fadeup">
+        <h1 class="display-3 fw-bold">Where <span class="text-coffee">coffee</span> meets warmth</h1>
+        <p class="lead mt-4 text-secondary">A warm space to enjoy specialty coffee, surrounded by the aroma of carefully selected beans and a cozy atmosphere.</p>
+        <div class="mt-4">
+          <a href="#menu" class="btn btn-coffee me-3">View Menu <i class="fas fa-arrow-right ms-1"></i></a>
+          <a href="#lokasi" class="btn btn-outline-warm">Book a Table</a>
+        </div>
+      </div>
+      <div class="col-lg-6 fadeup">
+        <div class="glass-card p-3 text-center">
+          <img src="img/bg1.jpeg" alt="specialty coffee" class="img-fluid rounded-4 shadow">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tentang Coffeeshop -->
+<section id="tentang" class="py-5 bg-warm-light">
+  <div class="container py-5">
+    <div class="row align-items-center g-5">
+      <div class="col-md-6 order-md-2 fadeup">
+        <img src="img/bg2.png" alt="interior" class="img-fluid rounded-5 shadow-lg" >
+      </div>
+      <div class="col-md-6 order-md-1 fadeup">
+        <div class="section-sub">Our Story</div>
+        <h2 class="section-title mb-4">The Story of <br>Warm Brew Coffee</h2>
+        <p class="mb-4 fs-5">We are here as an oasis amidst the hustle and bustle of the city. Every cup of coffee is crafted with care, using carefully selected beans sourced sustainably from local farmers.</p>
+        <div class="row mt-3">
+          <div class="col-6 mb-3"><div class="d-flex gap-2"><i class="fas fa-check-circle fs-4 text-coffee"></i> <span>100% Arabica Beans</span></div></div>
+          <div class="col-6 mb-3"><div class="d-flex gap-2"><i class="fas fa-check-circle fs-4 text-coffee"></i> <span>In-house Roastery</span></div></div>
+          <div class="col-6 mb-3"><div class="d-flex gap-2"><i class="fas fa-check-circle fs-4 text-coffee"></i> <span>Cozy & Plant based</span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Menu Unggulan -->
+<section id="menu" class="py-5">
+  <div class="container py-4">
+    <div class="text-center fadeup">
+      <div class="section-sub d-inline-flex mx-auto">Customer Favorites</div>
+      <h2 class="section-title">Signature Menu</h2>
+      <p class="text-muted mb-5">Signature flavors you’ll crave again and again</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4 fadeup">
+        <div class="menu-card-modern">
+          <img src="img/menu1.jpeg" alt="coffee">
+          <div class="p-4">
+            <div class="d-flex justify-content-between"><h4 class="fw-bold">Caffè Latte</h4><span class="badge bg-coffee-soft text-dark rounded-pill px-3 py-2">⭐ Best</span></div>
+            <p class="text-muted">A smooth and creamy espresso drink made with rich espresso, plenty of steamed milk, and a light layer of foam on top. Perfect for a mild, balanced coffee treat.</p>
+            <div class="d-flex justify-content-between mt-3"><span class="h4 fw-bold text-coffee">Rp 48k</span><i class="fas fa-heart text-muted"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 fadeup">
+        <div class="menu-card-modern">
+          <img src="img/menu2.jpeg" alt="iced latte">
+          <div class="p-4">
+            <h4 class="fw-bold">Iced Brown Sugar Latte</h4>
+            <p class="text-muted">A chilled blend of rich espresso, fresh milk, and sweet brown sugar syrup served over ice. A smooth, refreshing treat with a delightful caramel twist.</p>
+            <div class="d-flex justify-content-between mt-3"><span class="h4 fw-bold text-coffee">Rp 42k</span><i class="fas fa-heart text-muted"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 fadeup">
+        <div class="menu-card-modern">
+          <img src="img/menu3.jpeg" alt="pastry">
+          <div class="p-4">
+            <h4 class="fw-bold">Croissant Almond</h4>
+            <p class="text-muted">A flaky, buttery classic croissant filled with rich almond cream, topped with toasted sliced almonds, and lightly dusted with powdered sugar.</p>
+            <div class="d-flex justify-content-between mt-3"><span class="h4 fw-bold text-coffee">Rp 32k</span><i class="fas fa-heart text-muted"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Galeri Foto -->
+<section id="gallery" class="py-5 bg-warm-light">
+  <div class="container py-4">
+    <div class="text-center fadeup">
+      <div class="section-sub d-inline-flex mx-auto">Visual Vibes</div>
+      <h2 class="section-title">Ambience & Gallery</h2>
+      <p class="text-muted mb-5">Inspiration in every corner</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item-asym item-tall"><img src="img/img1.png" alt="cozy"></div>
+      <div class="gallery-item-asym"><img src="img/img5.jpeg" alt="coffee corner"></div>
+      <div class="gallery-item-asym item-wide"><img src="img/img2.png" alt="outdoor"></div>
+      <div class="gallery-item-asym"><img src="img/img3.png" alt="coffee and cake"></div>
+      <div class="gallery-item-asym"><img src="img/img6.JPG" alt="barista"></div>
+      <div class="gallery-item-asym item-tall"><img src="img/img4.png" alt="interior warm"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimoni Carousel -->
+<section id="testimoni" class="py-5">
+  <div class="container py-4">
+    <div class="text-center fadeup">
+      <div class="section-sub d-inline-flex mx-auto">Customer Reviews</div>
+      <h2 class="section-title">What Our Customers Say</h2>
+      <p class="text-muted mb-5">Sweet moments from coffee lovers</p>
+    </div>
+    <div id="testiCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="testi-card text-center">
+                <i class="fas fa-quote-left fs-1 text-coffee opacity-50"></i>
+                <p class="fs-5 mt-3">"It has such a cozy, homey atmosphere! Authentic coffee selection, delightful desserts, and warm, welcoming service."</p>
+                <div class="mt-3"><strong>— Anindya Putri</strong> <span class="text-muted">| Content Creator</span></div>
+                <div class="text-warning">★★★★★</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="testi-card text-center">
+                <i class="fas fa-quote-left fs-1 text-coffee opacity-50"></i>
+                <p class="fs-5 mt-3">"The perfect spot for WFC with an amazing iced brown sugar latte."</p>
+                <div class="mt-3"><strong>— Reza Maulana</strong> <span class="text-muted">| Freelancer</span></div>
+                <div class="text-warning">★★★★★</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="testi-card text-center">
+                <i class="fas fa-quote-left fs-1 text-coffee opacity-50"></i>
+                <p class="fs-5 mt-3">"Aesthetic interior and the perfect hangout spot. Semarang really needs more warm coffee shops like this!"</p>
+                <div class="mt-3"><strong>— Kirana Dewi</strong> <span class="text-muted">| Food Blogger</span></div>
+                <div class="text-warning">★★★★★</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testiCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testiCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+    </div>
+  </div>
+</section>
+
+<!-- Lokasi & Kontak -->
+<section id="lokasi" class="py-5 bg-warm-light">
+  <div class="container py-4">
+    <div class="text-center fadeup">
+      <div class="section-sub d-inline-flex mx-auto">Visit Us</div>
+      <h2 class="section-title">Find Us & Contact</h2>
+    </div>
+    <div class="row g-4 mt-4">
+      <div class="col-md-6 fadeup">
+        <div class="loc-card h-100">
+          <i class="fas fa-map-pin fs-2 text-coffee mb-3"></i><h4>Address</h4>
+          <p>Sumurboto, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50269</p>
+          <hr>
+          <i class="fas fa-clock fs-2 text-coffee mb-3 mt-3"></i><h4>Opening Hours</h4>
+          <p>Open Daily • 8:00 AM – 10:00 PM </p>
+          <hr>
+          <i class="fab fa-whatsapp fs-2 text-coffee mb-3 mt-3"></i><h4>Reservasi & Order</h4>
+          <p>+62 878-8746-7372 (WA)<br>Email: hello@warmbrew.co</p>
+          <div class="mt-3">
+            <a href="#" class="me-3 text-dark fs-3"><i class="fab fa-instagram text-coffee"></i></a>
+            <a href="#" class="me-3 text-dark fs-3"><i class="fab fa-twitter text-coffee"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 fadeup">
+        <div class="loc-card">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31675.968452553934!2d110.40509701832725!3d-7.068338097788697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708eb2cbddbbfb%3A0x4027a76e35304f0!2sKec.%20Banyumanik%2C%20Kota%20Semarang%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1779110361721!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p class="mt-3 small text-muted">Located in the heart of Semarang, with easy access and spacious parking.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="pt-5 pb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <h4 class="serif"><i class="fas fa-mug-hot me-2"></i>Warm Brew</h4>
+        <p>Specialty coffee & a cozy space to accompany your best days.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5>Navigasi</h5>
+        <ul class="list-unstyled">
+          <li><a href="#hero" class="text-white-50 text-decoration-none">Home</a></li>
+          <li><a href="#tentang" class="text-white-50 text-decoration-none">About Us</a></li>
+          <li><a href="#menu" class="text-white-50 text-decoration-none">Menu</a></li>
+          <li><a href="#gallery" class="text-white-50 text-decoration-none">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h5>Contact Us</h5>
+        <p><i class="fas fa-phone-alt me-2"></i> +62 878-8746-7372</p>
+        <p><i class="fab fa-whatsapp me-2"></i> Chat via WhatsApp</p>
+      </div>
+    </div>
+    <hr class="opacity-25">
+    <div class="text-center small pt-2">© 2026 Warm Brew Coffee — crafted with <i class="fas fa-heart text-danger"></i> For coffee lovers</div>
+  </div>
+</footer>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/6287887467372?text=Halo%20Warm%20Brew%2C%20I’m%20interested%20in%20your%20menu%20and%20the%20atmosphere%20of%20your%20café!" class="wa-fancy" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Bootstrap JS (diperlukan untuk carousel dan navbar toggler) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JavaScript -->
+<script src="js/script.js"></script>
+</body>
+</html>
